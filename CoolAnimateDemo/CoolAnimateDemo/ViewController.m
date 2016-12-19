@@ -27,6 +27,7 @@
     
     self.titleArr = @[@"下拉放大", @"波浪"].mutableCopy;
     
+    
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
 }
 
